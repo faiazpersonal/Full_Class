@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Form</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<h2>Personal Servay Form</h2>
+
+	<form>
+		<fieldset>
+			<legend>User Information</legend>
+			<label>Enter Your Full Name</label>
+			<input type="text" name="name"><br>
+			<label>Enter Your Email</label>
+			<input type="email" name="email"><br>
+			<label>Enter Password</label>
+			<input type="password" name="pass"><br>
+			<label>Confirm Password</label>
+			<input type="password" name="cpass">
+			<br><br>
+			<label>Upload Your Photograph (within 500 K.B)</label><br>
+			<input type="file" name="photo"><br>
+			<label>Enter Your Gender</label><br>
+			<input type="radio" name="gender" value="male">Male
+			<input type="radio" name="gender" value="female">Female<br>
+			<label>Enter Your Birth Date</label><br>
+			<input type="datetime-local" name="bday"><br>
+			<label>Enter Your City</label><br>
+			<select name="city">
+				<option selected="selected">Dhaka</option>
+				<option>Chittagong</option>
+				<option>Comilla</option>
+				<option>Sylhet</option>
+				<option>Rajshahi</option>
+				<option>Khulna</option>
+			</select><br>
+			<label>Enter Your Desired rating (within 1 to 5)</label><br>
+			<input type="number" name="rating" min="1" max="5"><br>
+			<label>Enter Your Full Address</label><br>
+			<textarea rows="3" cols="30"></textarea><br>
+			<input type="submit" name="submit" value="Sign Up">
+			<input type="reset" name="reset" value="Cancel">
+		</fieldset>
+	</form>
+
+</body>
+</html>

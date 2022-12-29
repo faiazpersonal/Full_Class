@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>	<head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Basic Web Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        label {
+            font-weight: bold;
+        }
+        input [type=submit] {
+            border-radius: 10px;
+            background-color: orange;
+            color: white;
+            padding: 5px;
+            border-color: transparent;
+            height: 25px;
+            margin-bottom: 10px;
+        }
+        input {
+            padding: 5px;
+            margin-top: 7px;
+            
+        }
+        h2 {
+            font-size: 50px;
+            margin-top: 50px;
+            text-align: center;
+            background-color: black;
+            color: wheat;
+        }
+        .main-form {
+            margin-top: 20px;
+            
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <div id="top-header">
+            <div id="logo">
+                <img src="img/logo2.png">
+            </div>
+        
+            <nav>
+            <div id="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="singup.html">Signup</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+        </nav>		
+  </div>
+        
+    </header>
+
+
+    <h2> Signup Hear </h2>
+    <form action=" regForm">
+        <table class="main-form">
+            <tr>
+                <td>
+                    <label> Enter User Name</label>
+                </td>
+                <td> 
+                    <input type="text" name="username" style="width: 160px;">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label> Enter Email</label>
+                </td>
+                <td> 
+                    <input type="email" name="email" style="width: 160px;">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label> Enter Password</label>
+                </td>
+                <td> 
+                    <input type="password" name="password" style="width: 160px;">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label> Enter Confiram Password</label>
+                </td>
+                <td> 
+                    <input type="password" name="conpass" style="width: 160px;">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label> Gender: </label>
+                </td>
+                <td> 
+                    <input type="radio" name="gender" value="male"> male
+                    <input type="radio" name="gender" value="male"> Female
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label> Enter Your City: </label>
+                </td>
+                <td> 
+                    <select name="city" style="width: 160px;">
+                        <option selected="selected"> Dhaka</option>
+                        <option> Chittagong</option>
+                        <option> Comilla</option>
+                        <option> Khulna</option>
+                        <option> Mymensingh</option>                    
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div>
+                        <input type="submit" name="submit" value="Register">
+                        <input type="reset" name="reset" value="Cencel">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
