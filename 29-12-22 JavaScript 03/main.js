@@ -1,3 +1,6 @@
+// pop, shift, push, unshift, splice,  do while lop, brack, continue, associative array,Malti Dimentional array ==============================================================================================
+
+
 var arr = ["jamil", "kamal","Hasan", "Zahir", "Masum", "Sagor"]
         // var x = arr.toString();
         var y = arr.join("|");
@@ -13,7 +16,6 @@ document.getElementById("myarr").innerHTML = arr.toString();
 
 document.write("<br>");
 
-// pop, shift, push, unshift, splice,  do while lop, brack, continue ==============================================================================================
 // pop ==============================================================================================
 arr.pop();
 document.write(arr); // last dik theke delete hobe 
@@ -63,13 +65,36 @@ while(i<50);
         sum+=value;
  }
  document.write('Sum is:'+sum );
+ document.write("<br><br><br><br>");
+// Continue Statment ==============================================================================================
+for (let x = 1; x <20; x++){
+        if (x % 2 == 0) continue;
+        document.write(x);
+}
 
+document.write("<br><br><br><br>");
+// associative array ==============================================================================================
+var subject = new Array();
+subject['Cp'] = "Computer Program";
+subject['CG'] = "Computer Graphics"
+subject['DBNS'] = "Database Management System"
 
-
-
-
-
-
+for (var i in subject){
+        document.write("The index is: <b>"+i);
+        document.write("</b> || and the vilue is:<b>"+subject[i]+"</b><br>");
+}
+document.write("<br><br><br><br>");
+// Malti Dimentional array ==============================================================================================
+var userdata = [
+        ["Faiaz",22],
+        ["Forhad", 23],
+        [" Arafat", 26]
+]
+for (var i = 0; i < userdata.length; i++){
+        for (var j = 0; j <userdata[i].length; j++){
+                document.write(userdata[i][j]+ "<br>");
+        }
+}
 
 
 
