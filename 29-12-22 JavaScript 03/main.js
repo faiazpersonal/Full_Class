@@ -55,4 +55,21 @@ do {
 }
 while(i<50);
 // Brack Statment ==============================================================================================
+ let sum = 0;
+ while(true) {
+        let value = +prompt("Enter a value: ");
+        if (!value) break;
+        // document. write(typeof value);
+        sum+=value;
+ }
+ document.write('Sum is:'+sum );
+
+
+
+
+
+
+
+
+
 
