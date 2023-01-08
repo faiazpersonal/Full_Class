@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font-Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>JavaScript Form Validation </title>
+  </head>
+  <body>
+
+
+
+<!--============= Form jason data input ==========-->
+     <!-- <form>
+      <div class="formbox">
+        <label>Movie</label>
+        <input type="text" name="title" id="title" placeholder="Title">
+      </div>
+      <div class="formbox">
+        <label>Year</label>
+        <input type="number" name="yr" id="yr" placeholder="Year">
+      </div>
+  
+      <div class="formbox">
+        <button id="btn">Click to Add</button>
+      </div>
+  
+      <div id="msg">
+        <pre></pre>
+      </div>
+    </form> -->
+
+<!--============= Form jason data input ==========-->
+
+  <!--======= Form Validation data  ===============-->
+
+  <!-- <h1 style="color:green;">US Software egistration Form</h1>
+	<h3>Verify User registyration</h3>
+
+	<label>First Name</label><br>
+	<input type="text" name="fname" id="fname" value="">
+	<span id="blkmsg" style="color:red;"></span><br>
+
+	<label>Last Name</label><br>
+	<input type="text" name="lname" id="lname" value="">
+	<span id="charMsg" style="color:red;"></span><br>
+
+	<label>Password</label><br>
+	<input type="password" name="pwd1" id="pwd1" value="">
+	<span id="message1" style="color:red;"></span><br>
+
+	<label>Confirm Password</label><br>
+	<input type="password" name="pwd2" id="pwd2" value="">
+	<span id="message2" style="color:red;"></span><br><br>
+
+	<input type="submit" name="submit" value="Register" onclick="validateForm()">
+	<input type="reset" name="reset" value="Cancel"> -->
+<!--======= Form Validation data  ===============-->
+
+<!--============= Form Submit to a New Window =======================-->
+<form action="#" method="POST" name="f" style="width: 200px; margin:0px auto; border:1px solid gray; padding: 10px;">
+  <div>
+    Name<br>
+    <input type="text" name="txtName">
+  </div>
+  <div>
+    Address<br>
+    <textarea name="txtAddress"></textarea>
+  </div>
+  <div>
+  Course<br>
+  <select name="txtCourse">
+    <option value="MBA">M.B.A</option>
+    <option value="BBA">B.B.A</option>
+    <option value="CSE">CSE</option>
+    <option value="EEE">E.E.E</option>
+  </select>
+  </div>
+
+  <div>
+    Sex<br>
+    Male<input type="radio" name="rdoSex" value="male">
+    Female<input type="radio" name="rdoSex" value="female">
+  </div>
+
+  <div>
+    Subject<br>
+    English<input type="checkbox" name="chkSubject" value="English">
+    Bangla<input type="checkbox" name="chkSubject" value="Bangla">
+  </div>
+  <div>
+    <input type="button" name="btnObject" value="Submit" onclick="dyn_window()">
+  </div>
+
+</form>
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>
